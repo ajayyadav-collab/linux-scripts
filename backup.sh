@@ -21,5 +21,5 @@ echo "Backup saved as $DEST/$FILENAME"
 # Delete backups older than 7 days
 find $DEST -type f -name "*.tar.gz" -mtime +7 -exec rm {} \;
 
-echo "Old backups (7+ days) deleted"
+echo "Old backups (7+ days) deleted."
 
